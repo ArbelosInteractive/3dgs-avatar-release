@@ -98,6 +98,118 @@
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
       "resolved": "github:NixOS/nixpkgs/ebe4301cbd8f81c4f8d3244b3632338bbeb6d49c?lastModified=1744868846&narHash=sha256-5RJTdUHDmj12Qsv7XOhuospjAjATNiTMElplWnJE9Hs%3D"
     },
+    "glib.dev": {
+      "resolved": "github:NixOS/nixpkgs/ebe4301cbd8f81c4f8d3244b3632338bbeb6d49c?narHash=sha256-5RJTdUHDmj12Qsv7XOhuospjAjATNiTMElplWnJE9Hs%3D#glib.dev",
+      "source": "nixpkg"
+    },
+    "glib.out": {
+      "resolved": "github:NixOS/nixpkgs/ebe4301cbd8f81c4f8d3244b3632338bbeb6d49c?narHash=sha256-5RJTdUHDmj12Qsv7XOhuospjAjATNiTMElplWnJE9Hs%3D#glib.out",
+      "source": "nixpkg"
+    },
+    "glib@latest": {
+      "last_modified": "2025-04-13T09:22:33Z",
+      "resolved": "github:NixOS/nixpkgs/18dd725c29603f582cf1900e0d25f9f1063dbf11#glib",
+      "source": "devbox-search",
+      "version": "2.82.5",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/rdlnh019w17k7ixsrpm2jly6rr2nshxn-glib-2.82.5-bin",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/d6nlwvwygw1nvjzllsyx9b1dqr8v6b66-glib-2.82.5-dev"
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/w0bgdaq9lwdz6wg1g08lhwfwnixjhalr-glib-2.82.5-devdoc"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/iqnlanv2k2vy5y7zfgkksm46wzym7j1a-glib-2.82.5"
+            }
+          ],
+          "store_path": "/nix/store/rdlnh019w17k7ixsrpm2jly6rr2nshxn-glib-2.82.5-bin"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/7k5d1v8vff6gpdhbhagg0iy1477xi4rp-glib-2.82.5-bin",
+              "default": true
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/ksy1icj2l4frymx7y0qdnb06v1bv79qh-glib-2.82.5"
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/kg49xj2qq3ird7g3nmgw1kxcjbxgxxiw-glib-2.82.5-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/2liwnkqv1854k9ykk4synpaliq6id5f9-glib-2.82.5-dev"
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/86aqdwadws0dg2g5y20i3w7q1vmccg4b-glib-2.82.5-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/7k5d1v8vff6gpdhbhagg0iy1477xi4rp-glib-2.82.5-bin"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/j7wsazfygimqp2l16c6ddgdsp0anzr2k-glib-2.82.5-bin",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/v9lah0zz979whjgl7ycdp14sim2j75bn-glib-2.82.5-dev"
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/sld3kym5xsyd3kx7ahxvyyg1avcnvxza-glib-2.82.5-devdoc"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/9s2wgpmmxn89z5ylvgv0x73f37x9ksyf-glib-2.82.5"
+            }
+          ],
+          "store_path": "/nix/store/j7wsazfygimqp2l16c6ddgdsp0anzr2k-glib-2.82.5-bin"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/k7kp69c42w707mwadiwrsswj6q57nk1a-glib-2.82.5-bin",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/dv0r1bw82srypz82ykf4gmm2bka1j4r9-glib-2.82.5-devdoc"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/vi9n40g3814x3f7sqnc3jvmrhr4n3ij9-glib-2.82.5"
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/w8r26lwkl8m9ar21jb51rkc6idn6ljzj-glib-2.82.5-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/q2kq73njmjzh97n2j72wzfygmhshglfc-glib-2.82.5-dev"
+            }
+          ],
+          "store_path": "/nix/store/k7kp69c42w707mwadiwrsswj6q57nk1a-glib-2.82.5-bin"
+        }
+      }
+    },
     "mesa": {
       "resolved": "github:NixOS/nixpkgs/ebe4301cbd8f81c4f8d3244b3632338bbeb6d49c?narHash=sha256-5RJTdUHDmj12Qsv7XOhuospjAjATNiTMElplWnJE9Hs%3D#mesa",
       "source": "nixpkg"
