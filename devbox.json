@@ -28,6 +28,7 @@
     }
   },
   "env": {
-    "MAX_JOBS": "4"
+    "MAX_JOBS": "4",
+    "LDFLAGS": "-L/usr/lib/x86_64-linux-gnu"
   }
 }
