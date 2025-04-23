@@ -11,13 +11,15 @@
     "ffmpeg",
     "glib@latest",
     "glib.dev",
-    "glib.out"
+    "glib.out",
+    "tiny-cuda-nn@latest"
   ],
   "shell": {
     "init_hook": [
       ". $VENV_DIR/bin/activate",
-      "export LD_LIBRARY_PATH=$(pwd)/.devbox/nix/profile/default/lib:/usr/lib/wsl/lib:/nix/store/2nmbapxhrl1yv752f9aiy67kmgnclbmk-libglvnd-1.6.0/lib:/usr/lib/x86_64-linux-gnu/",
-      "export CUDA_HOME=`pwd`/.devbox/nix/profile/default"
+      "export LD_LIBRARY_PATH=$(pwd)/.devbox/nix/profile/default/lib:/usr/lib/wsl/lib:/nix/store/2nmbapxhrl1yv752f9aiy67kmgnclbmk-libglvnd-1.6.0/lib:/usr/lib/x86_64-linux-gnu/libcuda.so:/usr/lib/x86_64-linux-gnu/libnvidia-ml.so",
+      "export CUDA_HOME=`pwd`/.devbox/nix/profile/default",
+      "export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/libcuda.so"
     ],
     "scripts": {
       "test": [

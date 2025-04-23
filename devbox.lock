@@ -323,6 +323,34 @@
       "resolved": "github:NixOS/nixpkgs/ebe4301cbd8f81c4f8d3244b3632338bbeb6d49c?narHash=sha256-5RJTdUHDmj12Qsv7XOhuospjAjATNiTMElplWnJE9Hs%3D#stdenv.cc.cc.lib",
       "source": "nixpkg"
     },
+    "tiny-cuda-nn@latest": {
+      "last_modified": "2025-03-26T18:47:43Z",
+      "resolved": "github:NixOS/nixpkgs/bd3bac8bfb542dbde7ffffb6987a1a1f9d41699f#tiny-cuda-nn",
+      "source": "devbox-search",
+      "version": "1.6",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/442bq7bj4z4f5lywsjqhlcng4k6z8i6z-tiny-cuda-nn-1.6",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/442bq7bj4z4f5lywsjqhlcng4k6z8i6z-tiny-cuda-nn-1.6"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b4ig26yhh6dcj0ivibjmjni4yd153mp9-tiny-cuda-nn-1.6",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/b4ig26yhh6dcj0ivibjmjni4yd153mp9-tiny-cuda-nn-1.6"
+        }
+      }
+    },
     "xorg.libX11": {
       "resolved": "github:NixOS/nixpkgs/ebe4301cbd8f81c4f8d3244b3632338bbeb6d49c?narHash=sha256-5RJTdUHDmj12Qsv7XOhuospjAjATNiTMElplWnJE9Hs%3D#xorg.libX11",
       "source": "nixpkg"
